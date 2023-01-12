@@ -7,7 +7,7 @@
 ![Screenshot](https://github.com/happyjongsoft/NftImageLoader/blob/master/Screenshot_2.png?raw=true)
 
 ## Edit chain, network, contract's address and token's id
-```
+``` c#
     //The chain to interact with
     private string chain = "ethereum";
     //The network to interact with
@@ -19,12 +19,12 @@
 ```
 
 ## To display on RawImage UI Controller of Unity3D
-```
+``` c#
 	GetComponent<RawImage>().texture = texture;
 ```
 
 ## To display on MeshRenderer 
-```
+``` c#
 	GetComponent<MeshRenderer>().material.mainTexture = texture;
 ```
 
